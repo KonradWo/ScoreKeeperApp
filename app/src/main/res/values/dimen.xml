@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="score_padding_bottom">15dp</dimen>
+    <dimen name="score_padding_top">15dp</dimen>
+    <dimen name="score_padding_left">20dp</dimen>
+    <dimen name="score_padding_right">20dp</dimen>
+    <dimen name="team_size">40sp</dimen>
+    <dimen name="score_size">95sp</dimen>
+</resources>
