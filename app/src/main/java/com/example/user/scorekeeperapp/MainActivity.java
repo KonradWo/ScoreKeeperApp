@@ -7,8 +7,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    int scoreTeamA = 0;
-    int scoreTeamB = 0;
+    int scoreTeamA;
+    int scoreTeamB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
         if (scoreTeamA > 999) {
             Toast.makeText(this, "The larger result can not be displayed. Please reset the counter", Toast.LENGTH_LONG).show();
         } else {
-            TextView scoreView = (TextView) findViewById(R.id.team_a_score);
+            TextView scoreView = (TextView) findViewById(R.id.text_team_a_score);
             scoreView.setText(String.valueOf(score));
         }
     }
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
         if (scoreTeamB > 999) {
             Toast.makeText(this, "The larger result can not be displayed. Please reset the counter", Toast.LENGTH_LONG).show();
         } else {
-            TextView scoreView = (TextView) findViewById(R.id.team_b_score);
+            TextView scoreView = (TextView) findViewById(R.id.text_team_b_score);
             scoreView.setText(String.valueOf(score));
         }
     }
