@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="225dp" />
+        app:layout_constraintGuide_begin="216dp" />
 
     <TextView
         android:id="@+id/text_team_a"
@@ -202,7 +202,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_end="157dp" />
+        app:layout_constraintGuide_end="109dp" />
 
     <Button
         android:id="@+id/button_reset"
